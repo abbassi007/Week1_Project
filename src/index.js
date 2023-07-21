@@ -15,7 +15,7 @@ function initializecode() {
   myButton.addEventListener("click", function () {
     const notes = document.getElementById("add-notes");
     const heading = document.getElementById("heading");
-    notes.innerHTML = console.log("Hello World");
+    notes.document = console.log("Hello World");
     heading.textContent = "My notebook";
   });
 
