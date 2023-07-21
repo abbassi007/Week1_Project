@@ -9,7 +9,6 @@ if (document.readyState !== "loading") {
     initializecode();
   });
 }
-
 function initializecode() {
   const myButton = document.getElementById("my-button");
 
@@ -17,7 +16,7 @@ function initializecode() {
     const notes = document.getElementById("add-notes");
     const heading = document.getElementById("heading");
     notes.innerHTML = console.log("Hello World");
-    heading.innerHTML = "My notebook";
+    heading.textContent = "My notebook";
   });
 
   const addDataButton = document.getElementById("add-data");
